@@ -1,0 +1,10 @@
+for each node
+Balance level: -1,0,1
+Balance index = RD - LD
+4 rotations:
+Left rotations: Node to the left above shifts down to the down left. Any nodes to the left from
+the one getting rotated about get put to the right of the rotated node
+Right rotations: Opposite of left, top right becomes right, previous right becomes left on rotated node
+Left-right rotation (oh god): left-right leaning tree. Right node shifts to top right.Top right node of non-moved node
+moves to right of the other moved node
+Right-left rotation: the exact opposit
